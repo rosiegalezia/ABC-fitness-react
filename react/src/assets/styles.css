@@ -1,0 +1,24 @@
+:root {
+    --elmgreen: #1a936f;
+    --tradewind: #4eb1a6;
+    --aquaisland: #a7dadc;
+    --cornfield: #f9f7c3;
+    --coral: #f98348;
+
+}
+
+.navbar {
+    background-color: var(--aquaisland);
+    }
+
+.footer {
+    background-color: var(--elmgreen);
+    width: 100vw;
+    height: 15vh;
+    position: absolute;
+    bottom: 0;
+}
+
+h2 {
+
+}

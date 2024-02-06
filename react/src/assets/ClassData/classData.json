@@ -1,0 +1,90 @@
+[
+    {
+        "id": 1,
+        "name": "Body Pump",
+        "description": "A fast-paced, barbell-based workout to help you develop lean, athletic muscle by lifting light weights while performing high repetitions, instead of heavy weights but with fewer reps.",
+        "image": "./Public/Images/Placeholder_view_vector.svg",
+        "instructor": "Rachel",
+        "duration": "60 mins"
+    },
+    {
+        "id": 2,
+        "name": "Spin",
+        "description": "A high-intensity class combining cardio and endurance in a 45-minute calorie-crunching session! Not only is it great for giving you all the cardiovascular gains, but it’s great at toning muscles to make you super strong.",
+        "image": "./Public/Images/Placeholder_view_vector.svg",
+        "instructor": "Jamie",
+        "duration": "45 mins"
+    },
+    {
+        "id": 3,
+        "name": "Pilates",
+        "description": "Pilates concentrates on strengthening the body with an emphasis on your posture, balance, and flexibility. This helps to improve general fitness alongside your overall wellbeing.",
+        "image": "./Public/Images/Placeholder_view_vector.svg",
+        "instructor": "Chantelle",
+        "duration": "50 mins"
+    },
+    {
+        "id": 4,
+        "name": "Yoga",
+        "description": "Improve your strength, balance and flexibility, thanks to slow movements and deep breathing to increase blood flow and warm up muscles, while holding a pose can build strength.",
+        "image": "./Public/Images/Placeholder_view_vector.svg",
+        "instructor": "Mia",
+        "duration": "60 mins"
+    },
+    {
+        "id": 5,
+        "name": "HIIT",
+        "description": "Take your cardio workout to another level with HIIT. Potentially the most time-efficient way to exercise, with short bursts of intense exercise alternated with low intensity recovery periods.",
+        "image": "./Public/Images/Placeholder_view_vector.svg",
+        "instructor": "Rowan",
+        "duration": "30 mins"
+    },
+    {
+        "id": 6,
+        "name": "Box Fit",
+        "description": "A high-intensity cardio workout based on boxing techniques using gloves and pad work. Suitable for all levels, this non-contact workout will you improve your agility, strength and overall fitness.",
+        "image": "./Public/Images/Placeholder_view_vector.svg",
+        "instructor": "Lucy",
+        "duration": "45 mins"
+    },
+    {
+        "id": 7,
+        "name": "Step",
+        "description": "Step aerobics is an up-tempo way to get your heart pumping and stay fit. Get  all the benefits of a high-intensity cardio workout without putting stress on your joints.",
+        "image": "./Public/Images/Placeholder_view_vector.svg",
+        "instructor": "Holly",
+        "duration": "50 mins"
+    },
+    {
+        "id": 8,
+        "name": "Zumba",
+        "description": "Bring cardio and Latin-inspired dance together in this fun, high-energy workout experience that keeps you excited to exercise and return for more.",
+        "image": "./Public/Images/Placeholder_view_vector.svg",
+        "instructor": "Maggie",
+        "duration": "50 mins"
+    },
+    {
+        "id": 9,
+        "name": "Body Tone",
+        "description": "A top-to-toe workout aimed at toning and shaping the whole body. Exercises are designed to boost your metabolism and burn body fat.",
+        "image": "./Public/Images/Placeholder_view_vector.svg",
+        "instructor": "Luke",
+        "duration": "60 mins"
+    },
+    {
+        "id": 10,
+        "name": "Body Combat",
+        "description": "Punch and kick your way towards your fitness goals with this high-energy martial arts-inspired workout. Great for burning fat, releasing stress and improving your co-ordination.",
+        "image": "./Public/Images/Placeholder_view_vector.svg",
+        "instructor": "Beth",
+        "duration": "45 mins"
+    },
+    {
+        "id": 11,
+        "name": "Body Balance",
+        "description": "Body Balance concentrates on improving joint mobility and core strength, making you feel calmer and improving your sense of well-being, by combining Tai Chi, Pilates and Yoga.",
+        "image": "./Public/Images/Placeholder_view_vector.svg",
+        "instructor": "Poppy",
+        "duration": "50 mins"
+    }
+]
