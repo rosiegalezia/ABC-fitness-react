@@ -9,7 +9,11 @@
 
 .navbar {
     background-color: var(--aquaisland);
-    }
+}
+
+.nav-link:focus {
+color: var(--elmgreen) !important;
+}
 
 .footer {
     background-color: var(--elmgreen);
@@ -19,6 +23,7 @@
     bottom: 0;
 }
 
-h2 {
-
+.searchBtn {
+    background-color: var(--elmgreen);
+    color: white;
 }

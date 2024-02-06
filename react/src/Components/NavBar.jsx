@@ -68,9 +68,9 @@ function NavBar() {
                     </ul>
                 </div>
             </div>
-            <form class="d-flex">
+            <form class="d-flex p-3">
                     <input class="form-control me-2" type="text" placeholder="Find your class"/>
-                        <button class="btn btn-primary" type="button">Search</button>
+                        <button class="btn searchBtn" type="button">Search</button>
                 </form>
         </nav>
     );
