@@ -1,7 +1,7 @@
 import classes from '../assets/ClassData/classes.json'
-import class from '../Components/Class.jsx'
+import fitnessclass from '../Components/Class.jsx'
 
-import TimeTable from "react-timetable-events";
+// import TimeTable from "react-timetable-events";
 
 function Timetable() {
     // Body
@@ -10,9 +10,9 @@ function Timetable() {
 
         
 
-        {/* <div className="App">
-            <table>
-                <tr>
+        <div className="timetable mx-5">
+            <table className=''>
+                <tr className=''>
                     <th></th>
                     <th>Monday</th>
                     <th>Tuesday</th>
@@ -47,7 +47,7 @@ function Timetable() {
                     )
                 })} */}
             </table>
-        </div> */}
+        </div>
 
     </div>
 }
