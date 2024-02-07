@@ -19,9 +19,9 @@ function Timetable() {
 
     // Body
     return <div className='timetable'>
-        <h2 className="p-5">View our class timetable below</h2>
+        <h2 className="page-heading p-5 pb-1">View our class timetable below</h2>
 
-        <div className="container p-2 m-5 px-5">
+        <div className="container m-5">
                 <table className="table">
                     <thead>
                         <tr className=''>

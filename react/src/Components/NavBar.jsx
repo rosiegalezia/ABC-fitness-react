@@ -3,10 +3,10 @@ import '../assets/styles.css'
 
 function NavBar() {
     return (
-        <nav className="navbar navbar-expand-lg p-4 fixed-top">
+        <nav className="navbar navbar-expand-lg fixed-top">
             <div className="container-fluid">
                 <a className="navbar-brand" href="#">
-                    <img src='./public/Brand-assets/ABC-logo-large.svg' className='' width={80} height={80}></img>
+                    <img src='./assets/logo-large.svg' className='' width={80} height={80}></img>
                 </a>
                 <button
                     className="navbar-toggler"
