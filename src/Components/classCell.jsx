@@ -3,7 +3,7 @@ import { faBookmark } from '@fortawesome/free-regular-svg-icons';
 
 function classCell(props) {
     return (
-        <div className="">
+        <div className="p-2">
 
             <div className="">
                 <h3>{props.name}</h3>

@@ -1,6 +1,6 @@
 function Class(props) {
     return (
-        <div className="card m-4 col-12 col-xl-3 col-lg-3 col-md-4 col-sm-12">
+        <div className="card m-4 col-12 col-xl-2 col-lg-3 col-md-4 col-sm-12">
 
             <img className="card-img-top" src={props.image} />
             <div className="card-body pb-2 p-4">

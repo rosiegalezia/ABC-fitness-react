@@ -19,7 +19,11 @@ function Timetable() {
 
     // Body
     return <div className='timetable'>
-        <h2 className="page-heading p-5 pb-1">View our class timetable below</h2>
+        
+        <div className="page-heading p-5 pb-1">
+            <h2 className="">View our class timetable below</h2>
+            <h4 className="subheading">Find your perfect class, at the perfect time.</h4>
+        </div>
 
         <div className="container m-5">
                 <table className="table">
@@ -64,7 +68,7 @@ function Timetable() {
                             {classCells[9]}
                             {classCells[7]}
                             {classCells[6]}
-                            {classCells[8]}
+                            {classCells[3]}
                         </tr>
                     </tbody>
                 </table>
