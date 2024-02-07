@@ -1,51 +1,61 @@
+import React from 'react';
 import classes from '../assets/ClassData/classes.json'
 import fitnessclass from '../Components/Class.jsx'
+import dayColumn from '../Components/dayColumn.jsx';
 
 // import TimeTable from "react-timetable-events";
 
-function Timetable() {
+function Timetable(classes) {
     // Body
     return <div>
         <h2 className="p-5">View our class timetable below</h2>
 
-        
-
-        <div className="timetable mx-5">
-            <table className=''>
-                <tr className=''>
-                    <th></th>
-                    <th>Monday</th>
-                    <th>Tuesday</th>
-                    <th>Wednesday</th>
-                    <th>Thursday</th>
-                    <th>Friday</th>
-                    <th>Saturday</th>
-                    <th>Sunday</th>
-                </tr>
-
-                <tr>
-                    <th>morning</th>
-                    <td>class 1</td>
-                </tr>
-
-                <tr>
-                    <th>afternoon</th>
-                    <td>class 2</td>
-                </tr>
-
-                <tr>
-                    <th>evening</th>
-                    <td>class 3</td>
-                </tr>
-                {/* {classData.map((val, key) => {
-                    return (
-                        <tr key={key}>
-                            <td>{val.name}</td>
-                            <td>{val.description}</td>
-                            <td>{val.instructor}</td>
-                        </tr>
-                    )
-                })} */}
+        <div className="container">
+            <table className="table">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Monday</th>
+                        <th>Tuesday</th>
+                        <th>Wednesday</th>
+                        <th>Thursday</th>
+                        <th>Friday</th>
+                        <th>Saturday</th>
+                        <th>Sunday</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Morning</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>Afternoon</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>Evening</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
             </table>
         </div>
 
