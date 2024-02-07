@@ -13,7 +13,7 @@
 }
 
 .nav-link:focus {
-color: var(--elmgreen) !important;
+    color: var(--elmgreen) !important;
 }
 
 .footer {
@@ -24,16 +24,17 @@ color: var(--elmgreen) !important;
     /* bottom: 0; */
 }
 
-.searchBtn, .bookBtn {
+.searchBtn,
+.bookBtn {
     background-color: var(--elmgreen);
     color: white;
 }
 
 .page-heading {
-margin-top: 10rem;
-margin-left: 1rem;
-position: relative;
-color: var(--elmgreen);
+    margin-top: 10rem;
+    margin-left: 1rem;
+    position: relative;
+    color: var(--elmgreen);
 }
 
 .subheading {
@@ -54,4 +55,13 @@ color: var(--elmgreen);
 
 .timetable {
     width: 100%;
+}
+
+.contact-icon,
+.footer {
+    color: white;
+}
+
+a {
+    color: white;
 }
