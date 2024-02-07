@@ -32,14 +32,24 @@ color: var(--elmgreen) !important;
 .page-heading {
 margin-top: 15vh;
 position: relative;
+color: var(--elmgreen);
+}
+
+.subheading {
+    color: var(--tradewind);
 }
 
 /*********** browse classes cards  ****************/
 
 .card-footer {
     background-color: white;
+    border-top: none;
 }
 
+.card {
+    box-shadow: var(--tradewind) 7px 7px, var(--elmgreen) 14px 14px !important;
+
+}
 
 .timetable {
     width: 100vw;
