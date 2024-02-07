@@ -6,7 +6,7 @@ function NavBar() {
         <nav className="navbar navbar-expand-lg fixed-top">
             <div className="container-fluid">
                 <a className="navbar-brand" href="#">
-                    <img src='./assets/logo-large.svg' className='' width={80} height={80}></img>
+                    <img src='../public/Brand-assets/logo-large.svg' className='m-3' width={80} height={80}></img>
                 </a>
                 <button
                     className="navbar-toggler"
@@ -68,7 +68,7 @@ function NavBar() {
                     </ul>
                 </div>
             </div>
-            <form class="d-flex p-3">
+            <form class="d-flex p-3 m-3">
                     <input class="form-control me-2" type="text" placeholder="Find your class"/>
                         <button class="btn searchBtn" type="button">Search</button>
                 </form>
