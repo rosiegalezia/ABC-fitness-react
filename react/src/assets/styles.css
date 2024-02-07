@@ -9,6 +9,7 @@
 
 .navbar {
     background-color: var(--aquaisland);
+    position: absolute;
 }
 
 .nav-link:focus {
@@ -20,13 +21,21 @@ color: var(--elmgreen) !important;
     width: 100vw;
     height: 15vh;
     position: absolute;
-    bottom: 0;
+    /* bottom: 0; */
 }
 
-.searchBtn {
+.searchBtn, .bookBtn {
     background-color: var(--elmgreen);
     color: white;
 }
 
-h2 {
+/*********** browse classes cards  ****************/
+
+.card-footer {
+    background-color: white;
+}
+
+
+.timetable {
+    width: 100vw;
 }
