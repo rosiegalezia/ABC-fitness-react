@@ -1,17 +1,24 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBookmark } from '@fortawesome/free-regular-svg-icons';
+
 function classCell(props) {
     return (
         <div className="">
 
             <div className="">
                 <h3>{props.name}</h3>
-                <p>{props.description}</p>
-                <p>{props.instructor}</p>
-                <p>{props.duration}</p>
+                <p>with {props.instructor}</p>
+
             </div>
 
-            <div className="">
+            <div className='d-flex-block'>
+                {/* <p>{props.description}</p> */}
+                <p className="text-muted">{props.duration}</p>
+            </div>
+
+            <div className="d-inline-flex">
                 <button className="bookBtn">Book</button>
-                <button className="saveBtn">Save</button>
+                <button className="saveBtn"><FontAwesomeIcon icon={faBookmark} /></button>
             </div>
 
         </div>

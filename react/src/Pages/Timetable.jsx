@@ -18,13 +18,13 @@ function Timetable() {
     ));
 
     // Body
-    return <div>
+    return <div className='timetable'>
         <h2 className="p-5">View our class timetable below</h2>
 
         <div className="container p-2 m-5 px-5">
                 <table className="table">
                     <thead>
-                        <tr className='h2'>
+                        <tr className=''>
                             <th></th>
                             <th>Monday</th>
                             <th>Tuesday</th>

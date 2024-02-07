@@ -24,7 +24,7 @@ color: var(--elmgreen) !important;
     /* bottom: 0; */
 }
 
-.searchBtn {
+.searchBtn, .bookBtn {
     background-color: var(--elmgreen);
     color: white;
 }
@@ -33,4 +33,9 @@ color: var(--elmgreen) !important;
 
 .card-footer {
     background-color: white;
+}
+
+
+.timetable {
+    width: 100vw;
 }
