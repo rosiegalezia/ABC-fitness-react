@@ -1,3 +1,7 @@
+import Timetable from "../Pages/Timetable"
+import { NavLink } from "react-router-dom";
+
+
 function Class(props) {
     return (
         <div className="card m-4 col-12 col-xl-2 col-lg-3 col-md-4 col-sm-12">
@@ -10,7 +14,15 @@ function Class(props) {
                 <p>{props.duration}</p>
             </div>
             <div className="card-footer pt-1 p-4">
-                <button className="btn bookBtn m-1">Book</button>
+                <button className="btn bookBtn m-1">
+                    <NavLink
+                        className="nav-link active"
+                        aria-current="page"
+                        to="/Timetable"
+                        end
+                    >
+                        Book
+                    </NavLink></button>
                 <button className="btn saveBtn m-1">Save</button>
             </div>
 

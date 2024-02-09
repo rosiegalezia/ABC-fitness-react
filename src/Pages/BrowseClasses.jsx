@@ -1,4 +1,5 @@
 import Class from "../Components/Class"
+import Timetable from "./Timetable"
 import fitnessclasses from "../assets/ClassData/classes.json"
 
 import '../assets/styles.css'

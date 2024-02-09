@@ -11,7 +11,7 @@ function Footer() {
         <div className="my-5">
             <footer className="footer">
 
-                <div className='row px-5'>
+                <div className='row gx-0'>
                     <div className='col-12 col-lg-4 col-md-6 col-sm-12 p-5'>
                         <h4>Pop in and say hi</h4>
                         <p>
@@ -65,7 +65,7 @@ function Footer() {
                     </div>
 
                 </div>
-                <div className="footer footer-copyright text-center py-3">© 2024 Copyright: ABC Fitness Studio</div>
+                <div className="footer-copyright text-center py-3">© 2024 Copyright: ABC Fitness Studio</div>
             </footer>
 
         </div>
