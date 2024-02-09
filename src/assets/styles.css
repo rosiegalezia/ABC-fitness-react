@@ -7,9 +7,15 @@
 
 }
 
+
+.form-text {
+    color: white;
+}
+
 .navbar {
     background-color: var(--aquaisland);
-    position: absolute;
+    /* position: absolute; */
+    width: 100%;
 }
 
 .nav-link:focus {
@@ -28,6 +34,11 @@
 .bookBtn {
     background-color: var(--elmgreen);
     color: white;
+}
+
+.newsletterBtn {
+    background-color: var(--aquaisland);
+    color: rgb(80, 80, 80);
 }
 
 .page-heading {

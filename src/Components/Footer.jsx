@@ -11,8 +11,8 @@ function Footer() {
         <div className="my-5">
             <footer className="footer">
 
-                <div className='d-flex'>
-                    <div className='col-3 col-lg-3 col-sm-12 p-5'>
+                <div className='row px-5'>
+                    <div className='col-12 col-lg-4 col-md-6 col-sm-12 p-5'>
                         <h4>Pop in and say hi</h4>
                         <p>
                             ABC Fitness Studio <br />
@@ -22,23 +22,27 @@ function Footer() {
                         </p>
                     </div>
 
-                    <div className='col-3 col-lg-3 col-sm-12 p-5'>
+                    <div className='col-12 col-lg-4 col-md-6 col-sm-12 p-5'>
                         <h4>Get in touch</h4>
                         <p className=''>
                             <a href='mailto:contact@abcfitness.com' target="_blank" className='text-white'>
                                 <FontAwesomeIcon icon={faEnvelope} size="xl" className='contact-icon pe-3' />Email us </a>
                             <br />
-                            <a href='' target="_blank" className='text-white'>
-                                <FontAwesomeIcon icon={faPhone} size="xl" className='contact-icon pe-3' />Call us</a>
+                        </p>
+                        <p>    <a href='tel:123123123' target="_blank" className='text-white'>
+                            <FontAwesomeIcon icon={faPhone} size="xl" className='contact-icon pe-3' />Call us</a>
                         </p>
                     </div>
 
-                    <div className='col-3 col-lg-3 col-sm-12 p-5'>
+                    <div className='col-12 col-lg-4 col-md-12 col-sm-12 p-5'>
                         <h4>Join our mailing list</h4>
                         <form>
                             <div className="mb-3">
                                 <label for="exampleInputEmail1" className="form-label">Please enter your email address</label>
-                                <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='josiejump@abc.co.uk' />
+                                <div className='d-flex gap-2'>
+                                    <input type="email" className="form-control w-sm-100 w-lg-50" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='josiejump@abc.co.uk' />
+                                    <button className='p-1 w-lg-25 newsletterBtn'>Sign up</button>
+                                </div>
                                 <div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div>
                             </div>
                         </form>

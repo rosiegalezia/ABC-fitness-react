@@ -10,7 +10,7 @@
     {
         "id": 2,
         "name": "Spin",
-        "description": "A high-intensity class combining cardio and endurance in a 45-minute calorie-crunching session! Not only is it great for giving you all the cardiovascular gains, but it’s great at toning muscles to make you super strong.",
+        "description": "A high-intensity class combining cardio and endurance in a 45-minute calorie-crunching session! Get all the cardiovascular gains, and tone your muscles to make you super strong.",
         "image": "../public/Classes/spin.jpg",
         "instructor": "Jamie",
         "duration": "45 mins"
@@ -42,7 +42,7 @@
     {
         "id": 6,
         "name": "Box Fit",
-        "description": "A high-intensity cardio workout based on boxing techniques using gloves and pad work. Suitable for all levels, this non-contact workout will you improve your agility, strength and overall fitness.",
+        "description": "A high-intensity cardio workout based on boxing techniques using gloves and pad work. This non-contact workout will you improve your agility, strength and overall fitness.",
         "image": "../public/Classes/boxfit.jpg",
         "instructor": "Lucy",
         "duration": "45 mins"
@@ -82,7 +82,7 @@
     {
         "id": 11,
         "name": "Body Balance",
-        "description": "Body Balance concentrates on improving joint mobility and core strength, making you feel calmer and improving your sense of well-being, by combining Tai Chi, Pilates and Yoga.",
+        "description": "Body Balance combines Tai Chi, Pilates and Yoga to improve joint mobility and core strength, making you feel calmer and improving your sense of well-being.",
         "image": "../public/Classes/bodybalance.jpg",
         "instructor": "Poppy",
         "duration": "50 mins"
