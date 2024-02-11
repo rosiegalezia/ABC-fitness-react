@@ -2,8 +2,21 @@ import React from 'react';
 import classes from '../assets/ClassData/classes.json'
 import ClassCell from '../Components/ClassCell.jsx';
 
+import '../assets/styles.css'
+
+// import DayJS
+import dayjs from 'dayjs'
+
 
 function Timetable() {
+
+    // create an array of days of the week that corresponds to what dayjs returns
+    const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
+
+    // dayjs returns a number for each day, starting with Sunday, so sun=0, mon=1, tue=3 etc
+    // get the name of the day of the week rather than a number
+    const currentDay = days[dayjs().day()]
+    console.log(currentDay)
 
     // Mapping over the classes data to render classCell component in each cell
     const classCells = classes.map(cls => (
@@ -27,37 +40,28 @@ function Timetable() {
 
         <div className="container m-5">
             <table className="table">
-{/* 
-                <div>
-                    <div className='col-6'>
-                        <div className='row'>
-                            <th>Monday</th>
-                            <tr>Class 1</tr>
-                        </div>
-                    </div>
-                </div>
-                
-                <div>
-                    <div className='col-6'>
-                        <div className='row'>
-                            <th>Tuesday</th>
-                            <tr>Class 2</tr>
-                        </div>
-                    </div>
-                </div> */}
 
                 <thead>
                     <tr className=''>
-                        <th></th>
+                        {/* generate th for the days of the week, checking against dayjs as they're created */}
+
+                        {days.map( day => {
+                            return (
+                            <th key={day} className={day===currentDay ? 'current-day' : ''}>{day}</th>
+                            )
+                        })}
+
+                        {/* <th></th>
                         <th>Monday</th>
                         <th>Tuesday</th>
                         <th>Wednesday</th>
                         <th>Thursday</th>
                         <th>Friday</th>
                         <th>Saturday</th>
-                        <th>Sunday</th>
+                        <th>Sunday</th> */}
                     </tr>
                 </thead>
+
                 <tbody>
                     <tr>
                         <th>Morning</th>
@@ -90,6 +94,26 @@ function Timetable() {
                         {classCells[3]}
                     </tr>
                 </tbody>
+
+
+                {/* 
+                <div>
+                    <div className='col-6'>
+                        <div className='row'>
+                            <th>Monday</th>
+                            <tr>Class 1</tr>
+                        </div>
+                    </div>
+                </div>
+                
+                <div>
+                    <div className='col-6'>
+                        <div className='row'>
+                            <th>Tuesday</th>
+                            <tr>Class 2</tr>
+                        </div>
+                    </div>
+                </div> */}
             </table>
         </div>
 

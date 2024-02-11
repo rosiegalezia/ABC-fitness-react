@@ -7,6 +7,9 @@
 
 }
 
+.current-day {
+    color: red !important;
+}
 
 .form-text {
     color: white;
